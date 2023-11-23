@@ -1,0 +1,22 @@
+{
+  "name": "qa-frameworks-templates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anzaldoivan/qa-frameworks-templates.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anzaldoivan/qa-frameworks-templates/issues"
+  },
+  "homepage": "https://github.com/anzaldoivan/qa-frameworks-templates#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "@types/node": "^20.9.4"
+  }
+}

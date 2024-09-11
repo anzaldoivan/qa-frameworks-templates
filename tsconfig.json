@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "incremental": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strictPropertyInitialization": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "types": ["node", "playwright"],
+    "noImplicitReturns": true,
+    "baseUrl": ".",
+    "paths": {
+      "pages/*": ["src/pages/*"],
+      "utils/*": ["src/utils/*"],
+      "fixtures/*": ["src/fixtures/*"]
+    }
+  },
+  "include": ["./tests/**/*.ts", "./src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}

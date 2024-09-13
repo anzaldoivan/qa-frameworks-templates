@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test",
+    "test-ui": "npx playwright install --with-deps && npx playwright test --ui",
+    "test-trace": "npx playwright install --with-deps && npx playwright test --trace on"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anzaldoivan/qa-frameworks-templates.git"

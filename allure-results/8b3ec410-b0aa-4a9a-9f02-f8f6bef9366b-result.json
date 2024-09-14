@@ -1,0 +1,494 @@
+{
+  "uuid": "8b3ec410-b0aa-4a9a-9f02-f8f6bef9366b",
+  "name": "Create Category and Subcategory",
+  "historyId": "4d5885c1f1322c28ad6636ef01b55df7:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1726288839174,
+              "name": "browserType.launch",
+              "stop": 1726288841876
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1726288839156,
+          "name": "fixture: browser",
+          "stop": 1726288841877
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1726288841892,
+              "name": "browser.newContext",
+              "stop": 1726288841942
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1726288841884,
+          "name": "fixture: context",
+          "stop": 1726288841955
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1726288841966,
+              "name": "browserContext.newPage",
+              "stop": 1726288842609
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1726288841957,
+          "name": "fixture: page",
+          "stop": 1726288842609
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288839043,
+      "name": "Before Hooks",
+      "stop": 1726288842609
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288842623,
+      "name": "page.goto(https://club-administration.qa.qubika.com/#/auth/login)",
+      "stop": 1726288849550
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288849553,
+      "name": "locator.getByText('Qubika ClubPor favor ingrese').isVisible",
+      "stop": 1726288849640
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288849646,
+      "name": "expect.toBe",
+      "stop": 1726288849649
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288849654,
+      "name": "locator.getByPlaceholder('Usuario o correo electrónico').fill",
+      "stop": 1726288849740
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288849742,
+      "name": "locator.getByPlaceholder('Contraseña').fill",
+      "stop": 1726288849822
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288849825,
+      "name": "locator.getByRole('button', { name: 'Autenticar' }).click",
+      "stop": 1726288849952
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288849955,
+      "name": "expect.toHaveURL",
+      "stop": 1726288851937
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288851943,
+      "name": "locator.click(xpath=//a[@class='nav-link' and contains(@href, '#/category-type')])",
+      "stop": 1726288852244
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288852252,
+      "name": "locator.click(xpath=//button[@class='btn btn-primary' and contains(text(),'Adicionar')])",
+      "stop": 1726288852507
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288852510,
+      "name": "locator.getByPlaceholder('Nombre de categoría').fill",
+      "stop": 1726288852899
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288852901,
+      "name": "locator.getByRole('button', { name: 'Aceptar' }).click",
+      "stop": 1726288853114
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1726288853125,
+          "name": "locator.click(xpath=//button[@class='btn btn-primary' and contains(text(),'Adicionar')])",
+          "stop": 1726288854080
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288853115,
+      "name": "expect.toBeVisible",
+      "stop": 1726288855995
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288856006,
+      "name": "locator.getByPlaceholder('Nombre de categoría').fill",
+      "stop": 1726288856049
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288856050,
+      "name": "locator.getByText('Es subcategoria?').click",
+      "stop": 1726288856220
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288856221,
+      "name": "locator.fill(xpath=//div[@role='combobox']/input)",
+      "stop": 1726288856286
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288856287,
+      "name": "locator.getByRole('option', { name: '240914014042-TestCategory' }).click",
+      "stop": 1726288856750
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288856751,
+      "name": "locator.getByRole('button', { name: 'Aceptar' }).click",
+      "stop": 1726288856845
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1726288856850,
+          "name": "locator.click(xpath=//a[@class='page-link'] >> nth=-2)",
+          "stop": 1726288857184
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1726288857187,
+          "name": "page.waitForTimeout",
+          "stop": 1726288857611
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288856846,
+      "name": "expect.toBeVisible",
+      "stop": 1726288857855
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288858198,
+      "name": "locator.count(xpath=(//td[@class='ng-star-inserted' and contains(text(),'240914014042-TestCategory')]))",
+      "stop": 1726288858208
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288858209,
+      "name": "locator.count(xpath=(//td[@class='ng-star-inserted' and contains(text(),'240914014042-TestCategory')]))",
+      "stop": 1726288858214
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288858217,
+      "name": "page.isVisible(xpath=(//td[@class='ng-star-inserted' and contains(text(),'240914014042-TestCategory')]))",
+      "stop": 1726288858222
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288858223,
+      "name": "expect.toBeTruthy",
+      "stop": 1726288858224
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288858224,
+      "name": "locator.click(xpath=//a[@class='page-link'] >> nth=-2)",
+      "stop": 1726288858301
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288858303,
+      "name": "page.waitForTimeout",
+      "stop": 1726288859311
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288859312,
+      "name": "locator.count(xpath=(//td[@class='ng-star-inserted' and contains(text(),'240914014042-TestCategory-subcategory')]))",
+      "stop": 1726288859316
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288859317,
+      "name": "locator.count(xpath=(//td[@class='ng-star-inserted' and contains(text(),'240914014042-TestCategory-subcategory')]))",
+      "stop": 1726288859320
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288859321,
+      "name": "page.isVisible(xpath=(//td[@class='ng-star-inserted' and contains(text(),'240914014042-TestCategory-subcategory')]))",
+      "stop": 1726288859328
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288859329,
+      "name": "expect.toBeTruthy",
+      "stop": 1726288859329
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1726288859331,
+          "name": "fixture: page",
+          "stop": 1726288859331
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1726288859331,
+          "name": "fixture: context",
+          "stop": 1726288859331
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288859329,
+      "name": "After Hooks",
+      "stop": 1726288859353
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "c88d702d-4f66-4289-8cfb-59291edcb0c7-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "e2e.category.category-creation.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > chromium > e2e\\category\\category-creation.spec.ts > Category Tests"
+    },
+    { "name": "host", "value": "DESKTOP-T5E4KNP" },
+    { "name": "thread", "value": "pid-26900-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "subSuite", "value": "Category Tests" }
+  ],
+  "links": [],
+  "start": 1726288839044,
+  "testCaseId": "4d5885c1f1322c28ad6636ef01b55df7",
+  "fullName": "e2e/category/category-creation.spec.ts:10:9",
+  "stop": 1726288856637
+}

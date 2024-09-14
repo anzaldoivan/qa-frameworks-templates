@@ -1,0 +1,389 @@
+{
+  "uuid": "b655d6d0-9a07-4222-ba48-3e460aaa832d",
+  "name": "Create Category and Subcategory",
+  "historyId": "4d5885c1f1322c28ad6636ef01b55df7:84e28e814b821ed013329cc8dbc467e0",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: locator.click: Error: strict mode violation: getByRole('option', { name: '240914014236-TestCategory' }) resolved to 2 elements:\n    1) <div role=\"option\" aria-selected=\"false\" id=\"a85edb2f…>…</div> aka getByRole('option', { name: '-TestCategory' }).first()\n    2) <div role=\"option\" aria-selected=\"false\" id=\"a85edb2f…>…</div> aka getByRole('option', { name: '-TestCategory' }).nth(1)\n\nCall log:\n  - waiting for getByRole('option', { name: '240914014236-TestCategory' })\n",
+    "trace": "Error: locator.click: Error: strict mode violation: getByRole('option', { name: '240914014236-TestCategory' }) resolved to 2 elements:\n    1) <div role=\"option\" aria-selected=\"false\" id=\"a85edb2f…>…</div> aka getByRole('option', { name: '-TestCategory' }).first()\n    2) <div role=\"option\" aria-selected=\"false\" id=\"a85edb2f…>…</div> aka getByRole('option', { name: '-TestCategory' }).nth(1)\n\nCall log:\n  - waiting for getByRole('option', { name: '240914014236-TestCategory' })\n\n    at CategoriesPage.AddSubCategory (C:\\Users\\ThinkPad\\OneDrive\\QA Testing\\qa-frameworks-templates\\src\\pages\\dashboard\\categories\\CategoriesPage.ts:38:69)\n    at C:\\Users\\ThinkPad\\OneDrive\\QA Testing\\qa-frameworks-templates\\tests\\e2e\\category\\category-creation.spec.ts:37:9"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1726288952968,
+              "name": "browserType.launch",
+              "stop": 1726288955371
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1726288952963,
+          "name": "fixture: browser",
+          "stop": 1726288955372
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1726288955383,
+              "name": "browser.newContext",
+              "stop": 1726288955435
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1726288955376,
+          "name": "fixture: context",
+          "stop": 1726288955442
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1726288955448,
+              "name": "browserContext.newPage",
+              "stop": 1726288956457
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1726288955444,
+          "name": "fixture: page",
+          "stop": 1726288956458
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288952900,
+      "name": "Before Hooks",
+      "stop": 1726288956458
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288956481,
+      "name": "page.goto(https://club-administration.qa.qubika.com/#/auth/login)",
+      "stop": 1726288962315
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288962317,
+      "name": "locator.getByText('Qubika ClubPor favor ingrese').isVisible",
+      "stop": 1726288962444
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288962448,
+      "name": "expect.toBe",
+      "stop": 1726288962450
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288962454,
+      "name": "locator.getByPlaceholder('Usuario o correo electrónico').fill",
+      "stop": 1726288962749
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288962752,
+      "name": "locator.getByPlaceholder('Contraseña').fill",
+      "stop": 1726288962952
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288962954,
+      "name": "locator.getByRole('button', { name: 'Autenticar' }).click",
+      "stop": 1726288963759
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288963762,
+      "name": "expect.toHaveURL",
+      "stop": 1726288965215
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288965218,
+      "name": "locator.click(xpath=//a[@class='nav-link' and contains(@href, '#/category-type')])",
+      "stop": 1726288967160
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288967165,
+      "name": "locator.click(xpath=//button[@class='btn btn-primary' and contains(text(),'Adicionar')])",
+      "stop": 1726288967913
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288967914,
+      "name": "locator.getByPlaceholder('Nombre de categoría').fill",
+      "stop": 1726288968426
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288968429,
+      "name": "locator.getByRole('button', { name: 'Aceptar' }).click",
+      "stop": 1726288969029
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1726288969040,
+          "name": "locator.click(xpath=//button[@class='btn btn-primary' and contains(text(),'Adicionar')])",
+          "stop": 1726288969772
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288969031,
+      "name": "expect.toBeVisible",
+      "stop": 1726288972127
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288972137,
+      "name": "locator.getByPlaceholder('Nombre de categoría').fill",
+      "stop": 1726288972612
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288972613,
+      "name": "locator.getByText('Es subcategoria?').click",
+      "stop": 1726288973206
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288973208,
+      "name": "locator.fill(xpath=//div[@role='combobox']/input)",
+      "stop": 1726288973521
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: locator.click: Error: strict mode violation: getByRole('option', { name: '240914014236-TestCategory' }) resolved to 2 elements:\n    1) <div role=\"option\" aria-selected=\"false\" id=\"a85edb2f…>…</div> aka getByRole('option', { name: '-TestCategory' }).first()\n    2) <div role=\"option\" aria-selected=\"false\" id=\"a85edb2f…>…</div> aka getByRole('option', { name: '-TestCategory' }).nth(1)\n\nCall log:\n  - waiting for getByRole('option', { name: '240914014236-TestCategory' })\n",
+        "trace": "Error: locator.click: Error: strict mode violation: getByRole('option', { name: '240914014236-TestCategory' }) resolved to 2 elements:\n    1) <div role=\"option\" aria-selected=\"false\" id=\"a85edb2f…>…</div> aka getByRole('option', { name: '-TestCategory' }).first()\n    2) <div role=\"option\" aria-selected=\"false\" id=\"a85edb2f…>…</div> aka getByRole('option', { name: '-TestCategory' }).nth(1)\n\nCall log:\n  - waiting for getByRole('option', { name: '240914014236-TestCategory' })\n\n    at CategoriesPage.AddSubCategory (C:\\Users\\ThinkPad\\OneDrive\\QA Testing\\qa-frameworks-templates\\src\\pages\\dashboard\\categories\\CategoriesPage.ts:38:69)\n    at C:\\Users\\ThinkPad\\OneDrive\\QA Testing\\qa-frameworks-templates\\tests\\e2e\\category\\category-creation.spec.ts:37:9"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288973523,
+      "name": "locator.getByRole('option', { name: '240914014236-TestCategory' }).click",
+      "stop": 1726288973814
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1726288973824,
+              "name": "page.screenshot",
+              "stop": 1726288974108
+            },
+            {
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [
+                {
+                  "name": "Create Category and Subcategory",
+                  "source": "813b0a2e-a468-4206-ab07-03a27e74376b-attachment.jpg",
+                  "type": "image/jpeg"
+                }
+              ],
+              "parameters": [],
+              "start": 1726288974280,
+              "name": "Create Category and Subcategory",
+              "stop": 1726288974280
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1726288973819,
+          "name": "afterEach hook",
+          "stop": 1726288974200
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1726288974200,
+          "name": "fixture: page",
+          "stop": 1726288974201
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1726288974202,
+          "name": "fixture: context",
+          "stop": 1726288974203
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1726288974228,
+          "name": "fixture: browser",
+          "stop": 1726288974268
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288973817,
+      "name": "After Hooks",
+      "stop": 1726288974269
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "webkit" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "e2e.category.category-creation.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > webkit > e2e\\category\\category-creation.spec.ts > Category Tests"
+    },
+    { "name": "host", "value": "DESKTOP-T5E4KNP" },
+    { "name": "thread", "value": "pid-38048-worker-2" },
+    { "name": "parentSuite", "value": "webkit" },
+    { "name": "subSuite", "value": "Category Tests" }
+  ],
+  "links": [],
+  "start": 1726288952895,
+  "testCaseId": "4d5885c1f1322c28ad6636ef01b55df7",
+  "fullName": "e2e/category/category-creation.spec.ts:10:9",
+  "stop": 1726288971817
+}

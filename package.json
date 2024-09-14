@@ -22,5 +22,11 @@
   "devDependencies": {
     "@playwright/test": "^1.40.0",
     "@types/node": "^20.9.4"
+  },
+  "dependencies": {
+    "allure-playwright": "^3.0.0-beta.12",
+    "dotenv": "^16.4.5",
+    "prettier": "^3.3.3",
+    "sharp": "^0.33.5"
   }
 }

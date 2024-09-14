@@ -1,0 +1,438 @@
+{
+  "uuid": "0cb1574e-0368-432d-ba6d-e046528c73aa",
+  "name": "Create Category and Subcategory",
+  "historyId": "cc8e8c2c1a994a3f69c4411f99c8f1a7:259864bbb84e0941359ea9e4c0db04ac",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1726288952968,
+                  "name": "apiRequest.newContext",
+                  "stop": 1726288952981
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1726288952962,
+              "name": "fixture: request",
+              "stop": 1726288952982
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1726288952995,
+              "name": "apiRequestContext.post(https://api.club-administration.qa.qubika.com/api/auth/login)",
+              "stop": 1726288954243
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1726288954249,
+              "name": "expect.toBe",
+              "stop": 1726288954253
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1726288954256,
+              "name": "apiResponse.json",
+              "stop": 1726288954270
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1726288954273,
+              "name": "apiRequest.newContext",
+              "stop": 1726288954278
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1726288954282,
+                  "name": "apiRequestContext.dispose",
+                  "stop": 1726288954289
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1726288954279,
+              "name": "fixture: request",
+              "stop": 1726288954289
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1726288952908,
+          "name": "beforeAll hook",
+          "stop": 1726288954292
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1726288954347,
+              "name": "apiRequest.newContext",
+              "stop": 1726288954357
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1726288954340,
+          "name": "fixture: request",
+          "stop": 1726288954357
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288952898,
+      "name": "Before Hooks",
+      "stop": 1726288954358
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288954368,
+      "name": "apiRequestContext.post(/api/category-type/create)",
+      "stop": 1726288955229
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288955230,
+      "name": "expect.toBe",
+      "stop": 1726288955233
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288955234,
+      "name": "apiResponse.json",
+      "stop": 1726288955239
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288955241,
+      "name": "apiRequestContext.post(/api/category-type/create)",
+      "stop": 1726288956119
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288956121,
+      "name": "expect.toBe",
+      "stop": 1726288956124
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288956127,
+      "name": "apiResponse.json",
+      "stop": 1726288956133
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288956136,
+      "name": "apiRequestContext.get(/api/category-type/66e5143c93f74246353efc50)",
+      "stop": 1726288956987
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288956989,
+      "name": "expect.toBe",
+      "stop": 1726288956990
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288956992,
+      "name": "apiRequestContext.get(/api/category-type/66e5143d93f74246353efc51)",
+      "stop": 1726288957858
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288957859,
+      "name": "expect.toBe",
+      "stop": 1726288957860
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1726288957869,
+                  "name": "browserType.launch",
+                  "stop": 1726288960634
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1726288957865,
+              "name": "fixture: browser",
+              "stop": 1726288960634
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1726288960654,
+                  "name": "browser.newContext",
+                  "stop": 1726288960676
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1726288960644,
+              "name": "fixture: context",
+              "stop": 1726288960683
+            },
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "start": 1726288960690,
+                  "name": "browserContext.newPage",
+                  "stop": 1726288960941
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "start": 1726288960685,
+              "name": "fixture: page",
+              "stop": 1726288960942
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1726288957861,
+          "name": "afterEach hook",
+          "stop": 1726288960942
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1726288960943,
+          "name": "fixture: page",
+          "stop": 1726288960944
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1726288960944,
+          "name": "fixture: context",
+          "stop": 1726288960945
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1726288960959,
+              "name": "apiRequestContext.dispose",
+              "stop": 1726288960961
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1726288960958,
+          "name": "fixture: request",
+          "stop": 1726288960961
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "start": 1726288960979,
+              "name": "apiRequestContext.dispose",
+              "stop": 1726288960985
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "start": 1726288960963,
+          "name": "afterAll hook",
+          "stop": 1726288960986
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1726288957860,
+      "name": "After Hooks",
+      "stop": 1726288960987
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "api" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "api.category.category-creation.spec.ts" },
+    {
+      "name": "titlePath",
+      "value": " > api > api\\category\\category-creation.spec.ts > API Category Tests"
+    },
+    { "name": "host", "value": "DESKTOP-T5E4KNP" },
+    { "name": "thread", "value": "pid-38048-worker-3" },
+    { "name": "parentSuite", "value": "api" },
+    { "name": "subSuite", "value": "API Category Tests" }
+  ],
+  "links": [],
+  "start": 1726288952886,
+  "testCaseId": "cc8e8c2c1a994a3f69c4411f99c8f1a7",
+  "fullName": "api/category/category-creation.spec.ts:26:9",
+  "stop": 1726288956807
+}

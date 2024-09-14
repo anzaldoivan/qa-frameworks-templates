@@ -1,4 +1,4 @@
-# Crain Playwright Tests Guide
+# Cubika Playwright Demo
 
 This project is a TypeScript-based test automation framework using Playwright for end-to-end testing of web applications. It provides a clean structure, reusable components, and modular test setup for running tests.
 

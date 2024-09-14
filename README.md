@@ -9,6 +9,7 @@ This project is a TypeScript-based test automation framework using Playwright fo
 - **Parallel execution:** Playwright's default feature for faster execution across multiple browsers.
 - **Prettier:** Code linting and formatting with Prettier. You can use the command `npx prettier . --write` to fix any formatting issues you may have
 - **TypeScript:** Strongly typed programming language that builds on JavaScript.
+- **Github Pages:** You can check out a demo of GH Pages Report at [anzaldoivan.github.io/qa-frameworks-templates/](https://anzaldoivan.github.io/qa-frameworks-templates/)
 
 ## Test Cases
 
@@ -77,7 +78,7 @@ npm run test-ui
 3. Test Report: View a comprehensive report of the test outcomes.
 
 ```bash
-npx allure generate --single-file allure-results --output allure-report --clean
+allure generate --single-file allure-results --output allure-report --clean
 ```
 
 ## Directory Structure

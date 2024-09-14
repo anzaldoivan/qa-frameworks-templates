@@ -82,6 +82,7 @@ npx allure generate --single-file allure-results --output allure-report --clean
 
 ## Directory Structure
 
+```bash
 ├── src
 │ ├── api # API interaction classes and methods
 │ ├── fixtures # Test data and mock files
@@ -94,10 +95,12 @@ npx allure generate --single-file allure-results --output allure-report --clean
 │ └── e2e # End-to-End tests
 ├── package.json
 ├── tsconfig.json
+├── global-setup.ts # Common Setup for reporting failed tests (+ image compression)
 └── README.md
 └── playwright.config.ts # Playwright configuration
+```
 
-### Description of Folders:
+### Description of Folders and files:
 
 src/api: Contains classes for interacting with APIs used in tests.
 src/fixtures: Holds test data, mock files, or any other necessary static input.
